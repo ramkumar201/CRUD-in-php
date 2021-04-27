@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #b7a2da;
+}
+.h2{
+    background-color: blanchedalmond;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    margin-top: 15vh;
+    overflow: hidden;
+}
+.listTable{
+    margin-top: 25px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    table-layout: inherit;
+}
+.listTable th{
+    background-color: #b7a2da;
+    padding: 10px;
+    border-radius: 5px;
+}
+.listTable td{
+    padding: 10px;
+}
+.listTable .deleteIcon{
+    color: red;
+}
+.addBtn{
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 0px;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+    font-weight: 1000;
+    box-shadow: 0px 0px 5px rgba(0, 1, 0.2, 0.3);
+}
+.addBtn:hover{
+    background-color: red;
+    color: whitesmoke;
+}
